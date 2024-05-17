@@ -22,25 +22,38 @@ import arrow_right from "./right_arrow.png";
 import arrow_left from "./left_arrow.png";
 import spotify_logo from "./spotify_logo.png";
 import clock_icon from "./clock_icon.png";
-import img1 from "./img1.jpg";
-import img2 from "./img2.jpg";
-import img3 from "./img3.jpg";
-import img4 from "./img4.jpg";
-import img5 from "./img5.jpg";
-import img6 from "./img6.jpg";
-import img7 from "./img7.jpg";
+
+import mahhhi from "./mahhhi.jpg";
+
+import born from "./born.jpg";
+
+import dooriyaan from "./dooriyaan.jpeg";
+
+import fir from "./fir.jpg";
+
+import sunday from "./sunday.jpg";
+
+import wishes from "./wishes.jpeg";
+
+import rubi from "./rubi.jpeg";
+
+import summertime from "./summertime.jpeg";
+
 import img8 from "./img8.jpg";
 import img9 from "./img9.jpg";
 import img10 from "./img10.jpg";
 import img11 from "./img11.jpg";
-import img12 from "./img12.jpg";
-import img13 from "./img13.jpg";
-import img14 from "./img14.jpg";
 import img15 from "./img15.jpg";
 import img16 from "./img16.jpg";
-import song1 from "./song1.mp3";
-import song2 from "./song2.mp3";
-import song3 from "./song3.mp3";
+
+import OMaahixVeHaaniyaan from "./OMaahixVeHaaniyaan.mp3";
+import BornToShine from "./BornToShine.mp3";
+import Dooriyaan from "./Dooriyaan.mp3";
+import HayeNiApaFerMilange from "./HayeNiApaFerMilange.mp3";
+import Sunday from "./Sunday.mp3";
+import Wishes from "./Wishes.mp3";
+import RubiconDrill from "./RubiconDrill.mp3";
+import SummertimeSadness from "./SummertimeSadness.mp3";
 
 export const assets = {
   bell_icon,
@@ -117,66 +130,69 @@ export const albumsData = [
 export const songsData = [
   {
     id: 0,
-    name: "Song One",
-    image: img1,
-    file: song1,
+    name: "O Maahi x Ve Haaniyaan",
+    image: mahhhi,
+    file: OMaahixVeHaaniyaan,
     desc: "Put a smile on your face with these happy tunes",
-    duration: "3:00",
+    duration: "4:46",
   },
+
   {
     id: 1,
-    name: "Song Two",
-    image: img2,
-    file: song2,
+    name: "Born To Shine",
+    image: born,
+    file: BornToShine,
     desc: "Put a smile on your face with these happy tunes",
-    duration: "2:20",
+    duration: "3:37",
   },
   {
     id: 2,
-    name: "Song Three",
-    image: img3,
-    file: song3,
+    name: "Dooriyaan",
+    image: dooriyaan,
+    file: Dooriyaan,
     desc: "Put a smile on your face with these happy tunes",
-    duration: "2:32",
+    duration: "3:55",
   },
   {
     id: 3,
-    name: "Song Four",
-    image: img4,
-    file: song1,
+    name: "aapa Fir Milage",
+    image: fir,
+    file: HayeNiApaFerMilange,
     desc: "Put a smile on your face with these happy tunes",
-    duration: "2:50",
+    duration: "5:8",
   },
+
   {
     id: 4,
-    name: "Song Five",
-    image: img5,
-    file: song2,
+    name: "Sunday",
+    image: sunday,
+    file: Sunday,
     desc: "Put a smile on your face with these happy tunes",
-    duration: "3:10",
+    duration: "2:25",
   },
+
   {
     id: 5,
-    name: "Song Six",
-    image: img14,
-    file: song3,
+    name: "Wishes",
+    image: wishes,
+    file: Wishes,
     desc: "Put a smile on your face with these happy tunes",
-    duration: "2:45",
+    duration: "3:38",
   },
   {
     id: 6,
-    name: "Song Seven",
-    image: img7,
-    file: song1,
+    name: "Rubicon Drill",
+    image: rubi,
+    file: RubiconDrill,
     desc: "Put a smile on your face with these happy tunes",
-    duration: "2:18",
+    duration: "3:37",
   },
   {
     id: 7,
-    name: "Song Eight",
-    image: img12,
-    file: song2,
+    name: "Summertime",
+    image: summertime,
+    file: SummertimeSadness,
     desc: "Put a smile on your face with these happy tunes",
-    duration: "2:35",
+    duration: "4:25",
   },
 ];

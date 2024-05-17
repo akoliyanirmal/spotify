@@ -8,9 +8,9 @@ const DisplayHome = () => {
   return (
     <>
       <Navbar />
-      <div className=" mb-4">
-        <h1 className=" my-5 font-bold text-2xl">Featured Charts</h1>
-        <div className=" flex overflow-auto">
+      <div className="mb-4 px-4 sm:px-6 lg:px-8">
+        <h1 className="my-5 font-bold text-2xl">Featured Charts</h1>
+        <div className="flex overflow-x-auto space-x-4">
           {albumsData.map((item, index) => (
             <AlbumItem
               key={index}
@@ -23,9 +23,9 @@ const DisplayHome = () => {
         </div>
       </div>
 
-      <div className=" mb-4">
-        <h1 className=" my-5 font-bold text-2xl">Today's biggest hits</h1>
-        <div className=" flex overflow-auto">
+      <div className="mb-4 px-4 sm:px-6 lg:px-8">
+        <h1 className="my-5 font-bold text-2xl">Today's Biggest Hits</h1>
+        <div className="flex overflow-x-auto space-x-4">
           {songsData.map((item, index) => (
             <SongItem
               key={index}
