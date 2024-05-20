@@ -26,7 +26,7 @@ const DisplayAlbum = () => {
           <h4 className="text-md md:text-lg">{albumData.desc}</h4>
           <p className="mt-1 text-sm md:text-base">
             <img
-              className="inline-block w-5"
+              className="inline-block w-5 relative right-3"
               src={assets.spotify_logo}
               alt="Spotify Logo"
             />
