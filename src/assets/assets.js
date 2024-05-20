@@ -39,10 +39,23 @@ import rubi from "./rubi.jpeg";
 
 import summertime from "./summertime.jpeg";
 
-import img8 from "./img8.jpg";
-import img9 from "./img9.jpg";
+import tuhai from "./tuhai.jpeg";
+
+import sangrahiyo from "./sangrahiyo.jpeg";
+
+import dil from "./dil.jpg";
+
+import king from "./king.jpg";
+
+import qissa from "./qissa.jpg";
+
+import bollywood from "./bollywood.jpeg";
+
+import bollywood2 from "./bollywood2.jpeg";
+
+import hitSong from "./hitSong.jpg";
+
 import img10 from "./img10.jpg";
-import img11 from "./img11.jpg";
 import img15 from "./img15.jpg";
 import img16 from "./img16.jpg";
 
@@ -54,6 +67,11 @@ import Sunday from "./Sunday.mp3";
 import Wishes from "./Wishes.mp3";
 import RubiconDrill from "./RubiconDrill.mp3";
 import SummertimeSadness from "./SummertimeSadness.mp3";
+import TuHai from "./TuHai.mp3";
+import sangraHiyo from "./sangraHiyo.mp3";
+import DILJAANIYE from "./DILJAANIYE.mp3";
+import Soulmate from "./Soulmate.mp3";
+import Qissa from "./Qissa.mp3";
 
 export const assets = {
   bell_icon,
@@ -85,18 +103,20 @@ export const assets = {
 export const albumsData = [
   {
     id: 0,
-    name: "Top 50 Global",
-    image: img8,
+    name: "Bollywood",
+    image: bollywood,
     desc: "Your weekly update of the most played tracks",
     bgColor: "#2a4365",
   },
+
   {
     id: 1,
-    name: "Top 50 India",
-    image: img9,
+    name: "bollywood 2",
+    image: bollywood2,
     desc: "Your weekly update of the most played tracks",
     bgColor: "#22543d",
   },
+
   {
     id: 2,
     name: "Trending India",
@@ -104,6 +124,7 @@ export const albumsData = [
     desc: "Your weekly update of the most played tracks",
     bgColor: "#742a2a",
   },
+
   {
     id: 3,
     name: "Trending Global",
@@ -111,13 +132,15 @@ export const albumsData = [
     desc: "Your weekly update of the most played tracks",
     bgColor: "#44337a",
   },
+
   {
     id: 4,
     name: "Mega Hits,",
-    image: img11,
+    image: hitSong,
     desc: "Your weekly update of the most played tracks",
     bgColor: "#234e52",
   },
+
   {
     id: 5,
     name: "Happy Favorites",
@@ -133,7 +156,7 @@ export const songsData = [
     name: "O Maahi x Ve Haaniyaan",
     image: mahhhi,
     file: OMaahixVeHaaniyaan,
-    desc: "Put a smile on your face with these happy tunes",
+    desc: "by Pritam | Arijit Singh | Irshad Kamil | Shreya Ghoshal",
     duration: "4:46",
   },
 
@@ -142,23 +165,25 @@ export const songsData = [
     name: "Born To Shine",
     image: born,
     file: BornToShine,
-    desc: "Put a smile on your face with these happy tunes",
+    desc: " by Diljit Dosanjh",
     duration: "3:37",
   },
+
   {
     id: 2,
     name: "Dooriyaan",
     image: dooriyaan,
     file: Dooriyaan,
-    desc: "Put a smile on your face with these happy tunes",
+    desc: "by KALAM INK | Aniket Raturi",
     duration: "3:55",
   },
+
   {
     id: 3,
     name: "aapa Fir Milage",
     image: fir,
     file: HayeNiApaFerMilange,
-    desc: "Put a smile on your face with these happy tunes",
+    desc: "by Savi Kahlon",
     duration: "5:8",
   },
 
@@ -167,7 +192,7 @@ export const songsData = [
     name: "Sunday",
     image: sunday,
     file: Sunday,
-    desc: "Put a smile on your face with these happy tunes",
+    desc: "by  Aditya A | Naalayak | Ronit Vinta",
     duration: "2:25",
   },
 
@@ -176,23 +201,69 @@ export const songsData = [
     name: "Wishes",
     image: wishes,
     file: Wishes,
-    desc: "Put a smile on your face with these happy tunes",
+    desc: "by Hasan Raheem",
     duration: "3:38",
   },
+
   {
     id: 6,
     name: "Rubicon Drill",
     image: rubi,
     file: RubiconDrill,
-    desc: "Put a smile on your face with these happy tunes",
+    desc: "by Parmish Verma | Gurlez Akhtar",
     duration: "3:37",
   },
+
   {
     id: 7,
     name: "Summertime",
     image: summertime,
     file: SummertimeSadness,
-    desc: "Put a smile on your face with these happy tunes",
+    desc: "by Lana del Rey",
     duration: "4:25",
+  },
+
+  {
+    id: 8,
+    name: "Tu hai",
+    image: tuhai,
+    file: TuHai,
+    desc: "by Darshan Raval | Prakriti Giri",
+    duration: "3:07",
+  },
+
+  {
+    id: 9,
+    name: "sangrahiyo",
+    image: sangrahiyo,
+    file: sangraHiyo,
+    desc: "by Jasleen Royal | Ranveer Allahbadia | jjwal Kashyap",
+    duration: "3:32",
+  },
+
+  {
+    id: 10,
+    name: "Dil Jaaniye",
+    image: dil,
+    file: DILJAANIYE,
+    desc: "by Jubin Nautiyal | Tulsi Kumar",
+    duration: "5:01",
+  },
+  {
+    id: 11,
+    name: "Soulmate",
+    image: king,
+    file: Soulmate,
+    desc: "by Badshah | Arijit Singh",
+    duration: "3:33",
+  },
+
+  {
+    id: 12,
+    name: "Qissa",
+    image: qissa,
+    file: Qissa,
+    desc: "by Bhavdeep Romana | Mukul Sharma",
+    duration: "3:34",
   },
 ];
